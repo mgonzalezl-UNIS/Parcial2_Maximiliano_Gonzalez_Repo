@@ -1,0 +1,30 @@
+# Vivado / xsim artifacts
+*.jou
+*.log
+*.str
+*.wdb
+*.xml
+*.pb
+*.dmp
+*.rpt
+*.html
+*.tmp
+*.ltx
+*.dcp
+*.bit
+*.xsa
+*.cache/
+*.Xil/
+*.runs/
+*.sim/
+*.ip_user_files/
+*.ip/
+*.gen/
+*.webtalk/
+*.hw/
+
+# OS/IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
