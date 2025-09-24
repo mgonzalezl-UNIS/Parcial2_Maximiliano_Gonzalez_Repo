@@ -14,38 +14,26 @@ Adicionalmente, se realiza un **análisis de tiempo** para cada sumador.
 ## Componentes & Diagramas
 
 - **Full Adder** 
-
-  ![Full Adder](./Fotos%20Serie%201/FullAdder/FullAdder.png)
-  - 
-  ![Half Adder](./Fotos%20Serie%201/FullAdder/HalfAdder.png)
+  - ![Full Adder](./Fotos%20Serie%201/FullAdder/FullAdder.png)
+  - ![Half Adder](./Fotos%20Serie%201/FullAdder/HalfAdder.png)
 
 - **Ripple Carry Adder**
-
-  ![Ripple Carry Adder](./Fotos%20Serie%201/RippleCarryAdder/RippleCarry.png)
+  - ![Ripple Carry Adder](./Fotos%20Serie%201/RippleCarryAdder/RippleCarry.png)
 
 - **Carry Look Ahead Adder**
-
-  ![Carry Look Ahead](./Fotos%20Serie%201/CarryLookAhead/CarryLookAheadAdder.png)
-  - 
-  ![Logic](./Fotos%20Serie%201/CarryLookAhead/CLALogic.png)
+  - ![Carry Look Ahead](./Fotos%20Serie%201/CarryLookAhead/CarryLookAheadAdder.png)
+  - ![Logic](./Fotos%20Serie%201/CarryLookAhead/CLALogic.png)
 
 - **Parallel Prefix Adder**
-
-  ![Initial](./Fotos%20Serie%201/ParallelPrefixAdder/Initial.png)
-  - 
-  ![Tree](./Fotos%20Serie%201/ParallelPrefixAdder/TreeSchematic.png)
-  - 
-  ![Carry](./Fotos%20Serie%201/ParallelPrefixAdder/Carry.png)
-  - 
-  ![Sum](./Fotos%20Serie%201/ParallelPrefixAdder/Sum.png)
-  - 
-  ![Final](./Fotos%20Serie%201/ParallelPrefixAdder/ParallelPrefixAdder.png)
+  - ![Initial](./Fotos%20Serie%201/ParallelPrefixAdder/Initial.png)
+  - ![Tree](./Fotos%20Serie%201/ParallelPrefixAdder/TreeSchematic.png)
+  - ![Carry](./Fotos%20Serie%201/ParallelPrefixAdder/Carry.png)
+  - ![Sum](./Fotos%20Serie%201/ParallelPrefixAdder/Sum.png)
+  - ![Final](./Fotos%20Serie%201/ParallelPrefixAdder/ParallelPrefixAdder.png)
 
 - **Final Adder Stages**
-
-  ![PreStage](./Fotos%20Serie%201/AdderFinal/PreStage.png)
-  - 
-  ![Final](./Fotos%20Serie%201/AdderFinal/AddersFinal.png)
+  - ![PreStage](./Fotos%20Serie%201/AdderFinal/PreStage.png)
+  - ![Final](./Fotos%20Serie%201/AdderFinal/AddersFinal.png)
 
 ## Análisis de Tiempo
 

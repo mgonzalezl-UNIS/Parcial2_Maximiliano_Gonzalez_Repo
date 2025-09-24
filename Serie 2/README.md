@@ -28,35 +28,27 @@ Finalmente, se implementó la **ALU** en **Vivado** (SystemVerilog), donde se si
 ## Componentes & Diagramas de la ALU
 
 - **Diseño Final**
-  ![Final](./Fotos%20Serie%202/ALU%20Final/Final.png)
-  - 
-  ![No Shifter](./Fotos%20Serie%202/ALU%20Final/NoShifter.png)
-  - 
-  ![With Shifter](./Fotos%20Serie%202/ALU%20Final/WithShifter.png)
+  - ![Final](./Fotos%20Serie%202/ALU%20Final/Final.png)
+  - ![No Shifter](./Fotos%20Serie%202/ALU%20Final/NoShifter.png)
+  - ![With Shifter](./Fotos%20Serie%202/ALU%20Final/WithShifter.png)
 
 - **Aritmética**
-  ![RippleCarryAdder7Bits](./Fotos%20Serie%202/ALU%20Components/Arithmetic/RippleCarryAdder7Bits.png)
+  - ![RippleCarryAdder7Bits](./Fotos%20Serie%202/ALU%20Components/Arithmetic/RippleCarryAdder7Bits.png)
 
 - **Lógica**
-  ![AND](./Fotos%20Serie%202/ALU%20Components/Logic/AND.png)
-  - 
-  ![OR](./Fotos%20Serie%202/ALU%20Components/Logic/OR.png)
+  - ![AND](./Fotos%20Serie%202/ALU%20Components/Logic/AND.png)
+  - ![OR](./Fotos%20Serie%202/ALU%20Components/Logic/OR.png)
 
 - **Shifter**
-  ![Shift Left](./Fotos%20Serie%202/ALU%20Components/Shifter/ShiftLeft.png)
-  - 
-  ![Shift Right](./Fotos%20Serie%202/ALU%20Components/Shifter/ShiftRight.png)
+  - ![Shift Left](./Fotos%20Serie%202/ALU%20Components/Shifter/ShiftLeft.png)
+  - ![Shift Right](./Fotos%20Serie%202/ALU%20Components/Shifter/ShiftRight.png)
 
 - **Flags**
-  ![Carry](./Fotos%20Serie%202/ALU%20Components/Flags/Carry.png)
-  - 
-  ![Carry Shifter](./Fotos%20Serie%202/ALU%20Components/Flags/CarryShifter.png)
-  - 
-  ![Overflow](./Fotos%20Serie%202/ALU%20Components/Flags/Overflow.png)
-  - 
-  ![Overflow Shifter](./Fotos%20Serie%202/ALU%20Components/Flags/OverflowShifter.png)
-  - 
-  ![Zero/Negative](./Fotos%20Serie%202/ALU%20Components/Flags/ZeroNegative.png)
+  - ![Carry](./Fotos%20Serie%202/ALU%20Components/Flags/Carry.png)
+  - ![Carry Shifter](./Fotos%20Serie%202/ALU%20Components/Flags/CarryShifter.png)
+  - ![Overflow](./Fotos%20Serie%202/ALU%20Components/Flags/Overflow.png)
+  - ![Overflow Shifter](./Fotos%20Serie%202/ALU%20Components/Flags/OverflowShifter.png)
+  - ![Zero/Negative](./Fotos%20Serie%202/ALU%20Components/Flags/ZeroNegative.png)
 
 ## Video
 - [Video Serie 2](https://youtu.be/cjtGvaAZd4Q)
