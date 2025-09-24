@@ -4,7 +4,6 @@ En esta serie se hizo un **reloj** utilizando cuatro **displays de siete segment
 
 ## Contenido
 - [`stm32CubeIDE Code`](./stm32CubeIDE%20Code/S4_Maximiliano_Gonzalez.c)
-- Video: https://youtu.be/BHaK8zbrU10
 
 ## Descripción
 El reloj se realizó utilizando la técnica de **multiplexing** en un módulo de cuatro displays de siete segmentos (**cátodo común**). Cada display tiene un pin al cual llega su señal de enable mediante un **transistor NPN** que permite encender y apagar el display.
@@ -44,12 +43,13 @@ Para poder hacer pruebas, el reloj tiene una opción para acelerar el tiempo med
 | MODE_BTN  | PC13          | 12h/24h Mode Toggle    | INPUT  |
 
 ## Hardware Pinout
+- STM32L053R8 MMIO Pinout
 ![STM32L053R8 Pinout](./Fotos%20Serie%204/STM32L053R8_Pinout.png)
-
+- 4 Digit 7 Segment Display Pinout
 ![Display Pinout](./Fotos%20Serie%204/DisplayPinout.jpg)
 
 ## Video
-- https://youtu.be/BHaK8zbrU10
+- [Video Serie 4](https://youtu.be/BHaK8zbrU10)
 
 
 
