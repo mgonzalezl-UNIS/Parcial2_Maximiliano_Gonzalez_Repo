@@ -3,7 +3,7 @@
 En esta serie se hizo un **reloj** utilizando cuatro **displays de siete segmentos** en **STM32CubeIDE**. El reloj tiene la **opción** de **formato de 12 y 24 horas (seleccionable mediante un botón)** y una **alarma** que solo se desarma al presionar otro **botón**.
 
 ## Contenido
-- [`stm32CubeIDE Code/S4_Maximiliano_Gonzalez.c`](./stm32CubeIDE%20Code/S4_Maximiliano_Gonzalez.c)
+- [`stm32CubeIDE Code`](./stm32CubeIDE%20Code/S4_Maximiliano_Gonzalez.c)
 - Video: https://youtu.be/BHaK8zbrU10
 
 ## Descripción

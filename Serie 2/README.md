@@ -28,7 +28,7 @@ Finalmente, se implementó la **ALU** en **Vivado** (SystemVerilog), donde se si
 - **Diseño Final**
   - ![Final](./Fotos%20Serie%202/ALU%20Final/Final.png)
   - ![No Shifter](./Fotos%20Serie%202/ALU%20Final/NoShifter.png)
-  - ![With Shifter](./Fotos%20Serie%202/ALU%20Final/WithShifter/ShifterFinal.png)
+  - ![With Shifter](./Fotos%20Serie%202/ALU%20Final/WithShifter.png)
 
 - **Aritmética**
   - ![RippleCarryAdder7Bits](./Fotos%20Serie%202/ALU%20Components/Arithmetic/RippleCarryAdder7Bits.png)

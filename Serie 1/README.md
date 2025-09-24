@@ -18,7 +18,7 @@ Adicionalmente, se realiza un **análisis de tiempo** para cada sumador.
   - ![Half Adder](./Fotos%20Serie%201/FullAdder/HalfAdder.png)
 
 - **Ripple Carry Adder**
-  - ![Ripple Carry Adder](./Fotos%20Serie%201/RippleCarryAdder/RippleCarryAdder.png)
+  - ![Ripple Carry Adder](./Fotos%20Serie%201/RippleCarryAdder/RippleCarry.png)
 
 - **Carry Look Ahead Adder**
   - ![Carry Look Ahead](./Fotos%20Serie%201/CarryLookAhead/CarryLookAheadAdder.png)

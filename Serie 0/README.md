@@ -8,4 +8,4 @@ En esta serie se implementaron las **máquinas de estado finito (FSM)** del prim
 - [`Vivado/Top.sv`](./Vivado/Top.sv)
 
 ## Video
-- https://youtu.be/4zIyIRiycw0
+- [Serie 0](https://youtu.be/4zIyIRiycw0)
