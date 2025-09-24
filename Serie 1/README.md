@@ -9,28 +9,28 @@ Adicionalmente, se realiza un **análisis de tiempo** para cada sumador.
 - **Parallel Prefix Adder**
 
 ## Logisim Evolution File
-- [`Parcial2_S1_Maximiliano_Gonzalez.circ`](Parcial2_S1_Maximiliano_Gonzalez.circ)
+- [`Adders Circuits`](Parcial2_S1_Maximiliano_Gonzalez.circ)
 
 ## Componentes & Diagramas
 
-- **Full Adder**
-  - 
+- **Full Adder** 
+
   ![Full Adder](./Fotos%20Serie%201/FullAdder/FullAdder.png)
   - 
   ![Half Adder](./Fotos%20Serie%201/FullAdder/HalfAdder.png)
 
 - **Ripple Carry Adder**
-  - 
+
   ![Ripple Carry Adder](./Fotos%20Serie%201/RippleCarryAdder/RippleCarry.png)
 
 - **Carry Look Ahead Adder**
-  - 
+
   ![Carry Look Ahead](./Fotos%20Serie%201/CarryLookAhead/CarryLookAheadAdder.png)
   - 
   ![Logic](./Fotos%20Serie%201/CarryLookAhead/CLALogic.png)
 
 - **Parallel Prefix Adder**
-  - 
+
   ![Initial](./Fotos%20Serie%201/ParallelPrefixAdder/Initial.png)
   - 
   ![Tree](./Fotos%20Serie%201/ParallelPrefixAdder/TreeSchematic.png)
@@ -42,7 +42,7 @@ Adicionalmente, se realiza un **análisis de tiempo** para cada sumador.
   ![Final](./Fotos%20Serie%201/ParallelPrefixAdder/ParallelPrefixAdder.png)
 
 - **Final Adder Stages**
-  - 
+
   ![PreStage](./Fotos%20Serie%201/AdderFinal/PreStage.png)
   - 
   ![Final](./Fotos%20Serie%201/AdderFinal/AddersFinal.png)
@@ -85,6 +85,7 @@ $= 3.6\,\text{ns} + \log_2 4 \cdot (3.6\,\text{ns}\cdot 2) + 13\,\text{ns}$
 $= 31\,\text{ns}$
 
 ### Casos de implementación
+
 - **Lentas con restricción de espacio y presupuesto:** se utilizarían **Ripple Carry** o **Full Adders**; menos compuertas → menor costo/área.  
 - **Rápidas sin restricción de espacio y presupuesto:** **Parallel Prefix Adder** (p. ej., Kogge-Stone) por su menor profundidad lógica.  
 - **Rápidas con restricción de espacio y presupuesto:** **Carry Lookahead Adders** o **Parallel Prefix** más simples (menos fan-out/etapas) como compromiso entre velocidad y área.

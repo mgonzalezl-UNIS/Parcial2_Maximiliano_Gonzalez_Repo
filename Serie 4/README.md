@@ -43,8 +43,10 @@ Para poder hacer pruebas, el reloj tiene una opción para acelerar el tiempo med
 | MODE_BTN  | PC13          | 12h/24h Mode Toggle    | INPUT  |
 
 ## Hardware Pinout
+
 - STM32L053R8 MMIO Pinout
 ![STM32L053R8 Pinout](./Fotos%20Serie%204/STM32L053R8_Pinout.png)
+
 - 4 Digit 7 Segment Display Pinout
 ![Display Pinout](./Fotos%20Serie%204/DisplayPinout.jpg)
 

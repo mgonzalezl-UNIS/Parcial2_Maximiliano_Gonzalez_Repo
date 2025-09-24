@@ -15,20 +15,19 @@ Después se agregaron:
 Finalmente, se implementó la **ALU** en **Vivado** (SystemVerilog), donde se simuló y se mostraron los resultados.
 
 ## Main Files
-- [`Parcial2_S2_Maximiliano_Gonzalez.circ`](Parcial2_S2_Maximiliano_Gonzalez.circ)
+- [`ALU Circuit in Logisim Evolution`](Parcial2_S2_Maximiliano_Gonzalez.circ)
 - **Módulos de Vivado:**
-  - [`ALU.sv`](./Vivado/ALU.sv),
-  - [`ALUMain.sv`](./Vivado/ALUMain.sv),
-  - [`FullAdder.sv`](./Vivado/FullAdder.sv),
-  - [`Adder3bits.sv`](./Vivado/Adder3bits.sv), 
-  - [`RippleAdder.sv`](./Vivado/RippleAdder.sv), 
-  - [`Decoders.sv`](./Vivado/Decoders.sv),
-  - [`A_Shifter.sv`](./Vivado/A_Shifter.sv)
+  - [`ALU`](./Vivado/ALU.sv),
+  - [`ALU Core`](./Vivado/ALUMain.sv),
+  - [`Full Adder`](./Vivado/FullAdder.sv),
+  - [`3 Bit Adder`](./Vivado/Adder3bits.sv), 
+  - [`Ripple Carry Adder`](./Vivado/RippleAdder.sv), 
+  - [`Decoders`](./Vivado/Decoders.sv),
+  - [`A Input Shifter`](./Vivado/A_Shifter.sv)
 
 ## Componentes & Diagramas de la ALU
 
 - **Diseño Final**
-  - 
   ![Final](./Fotos%20Serie%202/ALU%20Final/Final.png)
   - 
   ![No Shifter](./Fotos%20Serie%202/ALU%20Final/NoShifter.png)
@@ -36,23 +35,19 @@ Finalmente, se implementó la **ALU** en **Vivado** (SystemVerilog), donde se si
   ![With Shifter](./Fotos%20Serie%202/ALU%20Final/WithShifter.png)
 
 - **Aritmética**
-  - 
   ![RippleCarryAdder7Bits](./Fotos%20Serie%202/ALU%20Components/Arithmetic/RippleCarryAdder7Bits.png)
 
 - **Lógica**
-  - 
   ![AND](./Fotos%20Serie%202/ALU%20Components/Logic/AND.png)
   - 
   ![OR](./Fotos%20Serie%202/ALU%20Components/Logic/OR.png)
 
 - **Shifter**
-  - 
   ![Shift Left](./Fotos%20Serie%202/ALU%20Components/Shifter/ShiftLeft.png)
   - 
   ![Shift Right](./Fotos%20Serie%202/ALU%20Components/Shifter/ShiftRight.png)
 
 - **Flags**
-  - 
   ![Carry](./Fotos%20Serie%202/ALU%20Components/Flags/Carry.png)
   - 
   ![Carry Shifter](./Fotos%20Serie%202/ALU%20Components/Flags/CarryShifter.png)
