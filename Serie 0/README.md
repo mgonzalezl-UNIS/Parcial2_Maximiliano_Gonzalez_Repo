@@ -1,2 +1,34 @@
-# Parcial2_Maximiliano_Gonzalez_Repo
-Parcial 2 de Arquitectura de computadoras y microcontroladores 1
+# \# Serie 0 - FSM en HDL
+
+# 
+
+# En esta serie se implemento las maquinas de estado finito(\*\*FSM\*\*) del primer parcial en \*\*SystemVerilog\*\* usando \*\*Vivado\*\*.
+
+# 
+
+# ---
+
+# 
+
+# \## Contenido
+
+# 
+
+# \- `FSM1.sv`  
+
+# \- `FSM2.sv`  
+
+# \- `Top.sv`
+
+# 
+
+# ---
+
+# 
+
+# \## Video
+
+# 
+
+# &nbsp;- \[Video de Serie 0](https://youtu.be/4zIyIRiycw0)
+
