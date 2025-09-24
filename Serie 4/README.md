@@ -44,9 +44,11 @@ Para poder hacer pruebas, el reloj tiene una opción para acelerar el tiempo med
 
 ## Hardware Pinout
 
-- STM32L053R8 MMIO Pinout ![STM32L053R8 Pinout](./Fotos%20Serie%204/STM32L053R8_Pinout.png)
+- STM32L053R8 MMIO Pinout 
+    - ![STM32L053R8 Pinout](./Fotos%20Serie%204/STM32L053R8_Pinout.png)
 
-- 4 Digit 7 Segment Display Pinout ![Display Pinout](./Fotos%20Serie%204/DisplayPinout.jpg)
+- 4 Digit 7 Segment Display Pinout 
+    - ![Display Pinout](./Fotos%20Serie%204/DisplayPinout.jpg)
 
 ## Video
 - [Video Serie 4](https://youtu.be/BHaK8zbrU10)
