@@ -1,120 +1,52 @@
-# \# Serie 2 - Simulación e Implementación de ALU
+# Serie 2 - Simulación e implementación de ALU
 
-# 
+En esta serie se implementa y simula una **Arithmetic Logic Unit (ALU)** personalizada que realiza cuatro operaciones en **Vivado** y en **Logisim Evolution**.  
+Con base en el número de carne, se implementaron las siguientes operaciones en **registros de 7 bits**:
 
-# En esta serie se implementa y simula un \*\*Arithmetic Logic Unit (ALU)\*\* personalizado que puede realizar cuatro operaciones en \*\*Vivado\*\* y en \*\*Logisim Evolution\*\*. Como se indico, a base de mi carne, se implementaron las siguientes operaciones en \*\*registros de 7 bits\*\*:
+- **Suma**
+- **Resta**
+- **AND**
+- **OR**
 
-# 
+Después se agregaron:
+- **Shift Left**
+- **Shift Right**
 
-# &nbsp;- \*\*Suma\*\*
+Finalmente, se implementó la **ALU** en **Vivado** (SystemVerilog), donde se simuló y se mostraron los resultados.
 
-# &nbsp;- \*\*Resta\*\*
+## Main Files
+- `Parcial2_S2_Maximiliano_Gonzalez.circ`
+- **Módulos de Vivado:**
+  - `ALU.sv`, `ALUMain.sv`
+  - `Adder2bits.sv`, `Adder3bits.sv`, `Adder4bits.sv`
+  - `RippleAdder.sv`, `FullAdder.sv`
+  - `Decoders.sv`
+  - `A_Shifter.sv`
 
-# &nbsp;- \*\*AND\*\*
+## Componentes & Diagramas de la ALU
 
-# &nbsp;- \*\*OR\*\*
+- **Diseño Final**
+  - ![Final](./Fotos%20Serie%202/ALU%20Final/Final.png)
+  - ![No Shifter](./Fotos%20Serie%202/ALU%20Final/NoShifter.png)
+  - ![With Shifter](./Fotos%20Serie%202/ALU%20Final/WithShifter/ShifterFinal.png)
 
-# 
+- **Aritmética**
+  - ![RippleCarryAdder7Bits](./Fotos%20Serie%202/ALU%20Components/Arithmetic/RippleCarryAdder7Bits.png)
 
-# Después de haber implementado correctamente las operaciones, se agregaron las operaciones
+- **Lógica**
+  - ![AND](./Fotos%20Serie%202/ALU%20Components/Logic/AND.png)
+  - ![OR](./Fotos%20Serie%202/ALU%20Components/Logic/OR.png)
 
-# 
+- **Shifter**
+  - ![Shift Left](./Fotos%20Serie%202/ALU%20Components/Shifter/ShiftLeft.png)
+  - ![Shift Right](./Fotos%20Serie%202/ALU%20Components/Shifter/ShiftRight.png)
 
-# &nbsp;- \*\*Shift Left\*\*
+- **Flags**
+  - ![Carry](./Fotos%20Serie%202/ALU%20Components/Flags/Carry.png)
+  - ![Carry Shifter](./Fotos%20Serie%202/ALU%20Components/Flags/CarryShifter.png)
+  - ![Overflow](./Fotos%20Serie%202/ALU%20Components/Flags/Overflow.png)
+  - ![Overflow Shifter](./Fotos%20Serie%202/ALU%20Components/Flags/OverflowShifter.png)
+  - ![Zero/Negative](./Fotos%20Serie%202/ALU%20Components/Flags/ZeroNegative.png)
 
-# &nbsp;- \*\*Shift Right\*\*
-
-# 
-
-# Finalmente, se implemento la \*\*ALU\*\* en \*\*Vivado\*\*, utilizando \*\*SystemVerilog\*\* donde se simulo y mostro los resultados obtenidos. 
-
-# 
-
-# ---
-
-# 
-
-# \## Main Files
-
-# 
-
-# \- `Parcial2\_S2\_Maximiliano\_Gonzalez.circ`
-
-# \- \*\*Modulos de Vivado\*\*:  
-
-# &nbsp; - `ALU.sv`, `ALUMain.sv`  
-
-# &nbsp; - `Adder2bits.sv`, `Adder3bits.sv`, `Adder4bits.sv`  
-
-# &nbsp; - `RippleAdder.sv`, `FullAdder.sv`  
-
-# &nbsp; - `Decoders.sv`  
-
-# &nbsp; - `A\_Shifter.sv`
-
-# 
-
-# ---
-
-# 
-
-# \## Componentes \& Diagramas de la ALU
-
-# 
-
-# \- \*\*Diseño Final\*\*
-
-# &nbsp; - !\[Final](./Fotos%20Serie%202/ALU%20Final/Final.png)  
-
-# &nbsp; - !\[No Shifter](./Fotos%20Serie%202/ALU%20Final/NoShifter.png)  
-
-# &nbsp; - !\[With Shifter](./Fotos%20Serie%202/ALU%20Final/WithShifter/ShifterFinal.png)
-
-# 
-
-# \- \*\*Aritmética\*\*
-
-# &nbsp; - !\[RippleCarryAdder7Bits](./Fotos%20Serie%202/ALU%20Components/Arithmetic/RippleCarryAdder7Bits.png)
-
-# 
-
-# \- \*\*Lógica\*\*
-
-# &nbsp; - !\[AND](./Fotos%20Serie%202/ALU%20Components/Logic/AND.png)  
-
-# &nbsp; - !\[OR](./Fotos%20Serie%202/ALU%20Components/Logic/OR.png)
-
-# 
-
-# \- \*\*Shifter\*\*
-
-# &nbsp; - !\[Shift Left](./Fotos%20Serie%202/ALU%20Components/Shifter/ShiftLeft.png)  
-
-# &nbsp; - !\[Shift Right](./Fotos%20Serie%202/ALU%20Components/Shifter/ShiftRight.png)
-
-# 
-
-# \- \*\*Flags\*\*
-
-# &nbsp; - !\[Carry](./Fotos%20Serie%202/ALU%20Components/Flags/Carry.png)  
-
-# &nbsp; - !\[Carry Shifter](./Fotos%20Serie%202/ALU%20Components/Flags/CarryShifter.png)  
-
-# &nbsp; - !\[Overflow](./Fotos%20Serie%202/ALU%20Components/Flags/Overflow.png)  
-
-# &nbsp; - !\[Overflow Shifter](./Fotos%20Serie%202/ALU%20Components/Flags/OverflowShifter.png)  
-
-# &nbsp; - !\[Zero/Negative](./Fotos%20Serie%202/ALU%20Components/Flags/ZeroNegative.png)
-
-# 
-
-# ---
-
-# 
-
-# \## Video
-
-# 
-
-# &nbsp;- \[Video de Serie 2](https://youtu.be/cjtGvaAZd4Q)
-
+## Video
+- https://youtu.be/cjtGvaAZd4Q

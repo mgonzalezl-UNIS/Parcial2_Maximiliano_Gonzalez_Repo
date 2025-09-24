@@ -1,78 +1,33 @@
-# \# Parcial 2 - Maximiliano Gonzalez
+# Parcial 2 - Maximiliano González
 
-# <p align="center">
+<p align="center">
+  <em>Universidad del Istmo de Guatemala</em><br>
+  <em>Facultad de Ingeniería</em><br>
+  <em>Segundo Parcial</em><br>
+  <em>Arquitectura de Computadoras y Microcontroladores 1</em>
+</p>
 
-# &nbsp; <em>Universidad del Istmo de Guatemala</em>
+<div align="center">
+  <img src="Fotos Main/Logo_UNIS.png" alt="Logo UNIS" width="200"/>
+</div>
 
-# &nbsp; <em>Facultad de Ingeniería</em>
+<p align="center">
+  <em>Maximiliano González</em><br>
+  <em>15 de septiembre de 2025</em>
+</p>
 
-# &nbsp; <em>Segundo Parcial</em>
+## Table of Contents
+- [Serie 0](./Serie%200/README.md)
+- [Serie 1](./Serie%201/README.md)
+- [Serie 2](./Serie%202/README.md)
+- [Serie 4](./Serie%204/README.md)
 
-# &nbsp; <em>Arquitectura de Computadoras y Microcontroladores 1</em>
+## Overview
+Este repositorio contiene las soluciones del **Parcial 2** de la clase Arquitectura de Computadoras y Microcontroladores 1.  
+Cada serie se enfoca en una sección del parcial con sus **archivos**, **fotos** y un **video** en **YouTube**.
 
-# </p>
-
-# <div align="center">
-
-# &nbsp; <img src="Fotos Main/Logo\_UNIS.png" alt="Logo UNIS" width="200"/>
-
-# </div>
-
-# <p align="center">
-
-# &nbsp; <em>Maximiliano González</em>
-
-# &nbsp; <em>15 de septiembre de 2025</em>
-
-# </p>
-
-# 
-
-# ---
-
-# 
-
-# \## Table of Contents
-
-# 
-
-# \- \[Serie 0](./Serie%200/README.md)
-
-# \- \[Serie 1](./Serie%201/README.md)
-
-# \- \[Serie 2](./Serie%202/README.md)
-
-# \- \[Serie 4](./Serie%204/README.md)
-
-# 
-
-# ---
-
-# 
-
-# \## Overview
-
-# 
-
-# Este repositorio contiene las soluciones del  \*\*Parcial 2\*\* de la clase Arquitectura de Computadoras y Microcontroladores 1.
-
-# &nbsp; 
-
-# Cada serie se enfoca en una sección del parcial con sus \*\*files\*\*, \*\*fotos\*\*  y un \*\*video\*\* en \*\*YouTube\*\*. 
-
-# 
-
-# ---
-
-# 
-
-# \## Todos los videos de cada serie
-
-# \- \[Serie 0 — YouTube](https://youtu.be/4zIyIRiycw0)
-
-# \- \[Serie 1 — YouTube](https://youtu.be/YzNHJhpQjZI)
-
-# \- \[Serie 2 — YouTube](https://youtu.be/cjtGvaAZd4Q)
-
-# \- \[Serie 4 — YouTube](https://youtu.be/BHaK8zbrU10)
-
+## Todos los videos de cada serie
+- [Serie 0 — YouTube](https://youtu.be/4zIyIRiycw0)
+- [Serie 1 — YouTube](https://youtu.be/YzNHJhpQjZI)
+- [Serie 2 — YouTube](https://youtu.be/cjtGvaAZd4Q)
+- [Serie 4 — YouTube](https://youtu.be/BHaK8zbrU10)
